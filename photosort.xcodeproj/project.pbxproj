@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A37035E71B984405006DCA2F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37035E61B984405006DCA2F /* main.swift */; };
-		A37035EE1B9845AA006DCA2F /* exec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37035ED1B9845AA006DCA2F /* exec.swift */; settings = {ASSET_TAGS = (); }; };
+		A37035EE1B9845AA006DCA2F /* exec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37035ED1B9845AA006DCA2F /* exec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					A37035E21B984405006DCA2F = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -211,6 +212,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -218,6 +220,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -240,6 +243,7 @@
 				A37035EC1B984405006DCA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
